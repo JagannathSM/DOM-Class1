@@ -5,6 +5,6 @@ function getvalues(){
     var email=document.getElementById("email").value;
     var address=document.getElementById("add").value;
 
-    console.log(first,middle,last,email,address);
+    console.log(`FirstName:${first},MiddleName:${middle},LastName:${last},Email:${email},Address:${address}`);
 
 }
